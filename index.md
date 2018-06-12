@@ -2,10 +2,8 @@
 
 # Exercise 1
 ## Example DB
-* connect 192.168.182.201:2480
-* login into db "demo"
-    * user : root
-    * pass : password
+* Import Database
+    * How ? Check https://orientdb.com/docs/2.1.x/Console-Command-Import.html
 
 ## Schema
 * Teacher ==Teach=> Subject
