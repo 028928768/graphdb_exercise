@@ -1,5 +1,7 @@
 # Graph Database Exercises
 
+---
+
 # Exercise 1
 ## Example DB
 * Demo Database
@@ -30,8 +32,10 @@
 9. Select all student's name along with class they're attending
 10. Select all student's name along with class they're attending and teacher who's teaching in that class along with their subjects
 
-## Exercise 2
-### Schema
+---
+
+# Exercise 2
+## Schema
 ```sql
 create class person if not exists extends V
 create property person.name STRING
@@ -55,7 +59,7 @@ create class student_subject if not exists extends E
 create property student_subject.score INTEGER
 ```
 
-### Problems
+## Problems
 1. add 8 students into db
     * name "A" year 1
     * name "B" year 1
@@ -99,3 +103,5 @@ create property student_subject.score INTEGER
 7. Select subject, day and time for classroom C-101
 8. Select subject, day and time of all class available for student B to join ordered by day, time
 9. Select student who attends to subject student C've attended along with the subject's name
+
+---
