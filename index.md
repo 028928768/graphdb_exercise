@@ -7,7 +7,8 @@
 * Demo Database
     * Self machine
         * Start orientdb server
-        * How ? Check https://orientdb.com/docs/2.1.x/Console-Command-Import.html
+        * Import DB from export_demo.json.
+            * How ? Check https://orientdb.com/docs/2.1.x/Console-Command-Import.html
     * Connect VM 141
         * go to 10.10.5.141
         * connect to db 'demo'
